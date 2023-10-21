@@ -7,6 +7,12 @@
     <groupId>com.bjpowernode</groupId>
     <artifactId>micr-parent</artifactId>
     <version>1.0-SNAPSHOT</version>
+    <packaging>pom</packaging>
 
-    
+    <!--聚合-->
+    <modules>
+        <module>../micr-api</module>
+    </modules>
+
+
 </project>
